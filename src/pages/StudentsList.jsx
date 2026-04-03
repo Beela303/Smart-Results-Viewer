@@ -15,7 +15,7 @@ export default function StudentsList() {
     const fetchAll = async () => {
       setLoading(true);
       try {
-        const res = await axios.get('http://localhost:5000/students');
+        const res = await axios.get('https://smart-results-viewer.onrender.com/students');
         
         // FIX DUPLICATES: Use a Map to ensure unique IDs only
         const uniqueMap = new Map();

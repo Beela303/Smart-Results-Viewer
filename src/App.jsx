@@ -24,7 +24,7 @@ export default function App() {
         if (query.trim().length > 1) {
           setIsLoading(true); // Start loading
           
-          axios.get(`http://localhost:5000/students`)
+          axios.get(`https://smart-results-viewer.onrender.com/students`)
             .then(res => {
               const lowerQuery = query.toLowerCase();
               const filtered = res.data.filter(s => 

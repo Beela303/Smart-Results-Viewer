@@ -15,7 +15,7 @@ export default function StudentDetail() {
   const [student, setStudent] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/students/${id}`)
+    axios.get(`https://smart-results-viewer.onrender.com/students/${id}`)
       .then((res) => setStudent(res.data))
       .catch(err => console.error("Error fetching student:", err));
   }, [id]);
