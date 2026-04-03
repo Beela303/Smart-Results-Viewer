@@ -1,0 +1,909 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "indexNumber": "2024001",
+      "name": "James Wilson",
+      "major": "Fashion Design",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Pattern Making", "score": 74, "grade": "B" },
+            { "course": "History of Art", "score": 53, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Fashion Illustration", "score": 57, "grade": "C" },
+            { "course": "Drafting", "score": 95, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Lines & Designs", "score": 47, "grade": "C" },
+            { "course": "Textile Science", "score": 53, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "indexNumber": "2024002",
+      "name": "Mary Garcia",
+      "major": "Computer Science",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Data Structures", "score": 51, "grade": "C" },
+            { "course": "AI", "score": 76, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Networking", "score": 95, "grade": "A" },
+            { "course": "Operating Systems", "score": 78, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "indexNumber": "2024003",
+      "name": "Robert Miller",
+      "major": "Mechanical Engineering",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Thermodynamics", "score": 68, "grade": "B" },
+            { "course": "Machine Design", "score": 81, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Materials Science", "score": 51, "grade": "C" },
+            { "course": "Fluid Mechanics", "score": 69, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Statics", "score": 61, "grade": "B" },
+            { "course": "Dynamics", "score": 52, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Machine Design", "score": 63, "grade": "B" },
+            { "course": "Dynamics", "score": 97, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "indexNumber": "2024004",
+      "name": "Patricia Davis",
+      "major": "Fashion Design",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Fashion Illustration", "score": 53, "grade": "C" },
+            { "course": "History of Art", "score": 97, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Drafting", "score": 76, "grade": "B" },
+            { "course": "Pattern Making", "score": 81, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Textile Science", "score": 75, "grade": "B" },
+            { "course": "Lines & Designs", "score": 56, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Pattern Making", "score": 79, "grade": "B" },
+            { "course": "Drafting", "score": 53, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "indexNumber": "2024005",
+      "name": "Michael Rodriguez",
+      "major": "Nursing",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Pharmacology", "score": 47, "grade": "C" },
+            { "course": "Physiology", "score": 89, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Anatomy", "score": 54, "grade": "C" },
+            { "course": "Health Assessment", "score": 89, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "indexNumber": "2024006",
+      "name": "Linda Martinez",
+      "major": "Mechanical Engineering",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Fluid Mechanics", "score": 50, "grade": "C" },
+            { "course": "Statics", "score": 70, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Thermodynamics", "score": 45, "grade": "C" },
+            { "course": "Materials Science", "score": 52, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Heat Transfer", "score": 62, "grade": "B" },
+            { "course": "Machine Design", "score": 90, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Materials Science", "score": 70, "grade": "B" },
+            { "course": "Heat Transfer", "score": 64, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "indexNumber": "2024007",
+      "name": "William Hernandez",
+      "major": "Architecture",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Building Materials", "score": 61, "grade": "B" },
+            { "course": "Sustainability", "score": 78, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Design Studio", "score": 99, "grade": "A" },
+            { "course": "Urban Planning", "score": 55, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Digital Modeling", "score": 51, "grade": "C" },
+            { "course": "Structural Systems", "score": 77, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "indexNumber": "2024008",
+      "name": "Barbara Lopez",
+      "major": "Computer Science",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Algorithms", "score": 91, "grade": "A" },
+            { "course": "Web Dev", "score": 97, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Networking", "score": 97, "grade": "A" },
+            { "course": "Data Structures", "score": 97, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "indexNumber": "2024009",
+      "name": "David Gonzalez",
+      "major": "Fashion Design",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Pattern Making", "score": 69, "grade": "B" },
+            { "course": "Fashion Illustration", "score": 96, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Drafting", "score": 70, "grade": "B" },
+            { "course": "History of Art", "score": 58, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Lines & Designs", "score": 87, "grade": "A" },
+            { "course": "Textile Science", "score": 90, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Drafting", "score": 45, "grade": "C" },
+            { "course": "Pattern Making", "score": 62, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 5",
+          "results": [
+            { "course": "Textile Science", "score": 70, "grade": "B" },
+            { "course": "Lines & Designs", "score": 69, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "indexNumber": "2024010",
+      "name": "Elizabeth Wilson",
+      "major": "Business Admin",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Accounting", "score": 58, "grade": "C" },
+            { "course": "Management", "score": 54, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Microeconomics", "score": 89, "grade": "A" },
+            { "course": "Marketing", "score": 83, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Finance", "score": 56, "grade": "C" },
+            { "course": "Macroeconomics", "score": 69, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Management", "score": 69, "grade": "B" },
+            { "course": "Accounting", "score": 47, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "indexNumber": "2024011",
+      "name": "Richard Anderson",
+      "major": "Architecture",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Urban Planning", "score": 46, "grade": "C" },
+            { "course": "Building Materials", "score": 97, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Digital Modeling", "score": 85, "grade": "A" },
+            { "course": "Sustainability", "score": 50, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Design Studio", "score": 87, "grade": "A" },
+            { "course": "Structural Systems", "score": 53, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "indexNumber": "2024012",
+      "name": "Susan Thomas",
+      "major": "Architecture",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Digital Modeling", "score": 64, "grade": "B" },
+            { "course": "Sustainability", "score": 91, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Design Studio", "score": 98, "grade": "A" },
+            { "course": "Building Materials", "score": 67, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Urban Planning", "score": 67, "grade": "B" },
+            { "course": "Structural Systems", "score": 88, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Structural Systems", "score": 56, "grade": "C" },
+            { "course": "Urban Planning", "score": 88, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 5",
+          "results": [
+            { "course": "Building Materials", "score": 52, "grade": "C" },
+            { "course": "Sustainability", "score": 86, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "indexNumber": "2024013",
+      "name": "Joseph Taylor",
+      "major": "Civil Engineering",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Surveying", "score": 98, "grade": "A" },
+            { "course": "Structural Analysis", "score": 68, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Geotechnical Eng", "score": 53, "grade": "C" },
+            { "course": "Transportation Eng", "score": 78, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Hydrology", "score": 77, "grade": "B" },
+            { "course": "Environmental Eng", "score": 58, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Structural Analysis", "score": 50, "grade": "C" },
+            { "course": "Hydrology", "score": 89, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "indexNumber": "2024014",
+      "name": "Jessica Moore",
+      "major": "Civil Engineering",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Hydrology", "score": 73, "grade": "B" },
+            { "course": "Geotechnical Eng", "score": 68, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Surveying", "score": 72, "grade": "B" },
+            { "course": "Structural Analysis", "score": 75, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Environmental Eng", "score": 78, "grade": "B" },
+            { "course": "Transportation Eng", "score": 65, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Transportation Eng", "score": 78, "grade": "B" },
+            { "course": "Environmental Eng", "score": 64, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 5",
+          "results": [
+            { "course": "Hydrology", "score": 78, "grade": "B" },
+            { "course": "Geotechnical Eng", "score": 61, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "indexNumber": "2024015",
+      "name": "Thomas Jackson",
+      "major": "Civil Engineering",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Geotechnical Eng", "score": 59, "grade": "C" },
+            { "course": "Transportation Eng", "score": 86, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Environmental Eng", "score": 62, "grade": "B" },
+            { "course": "Surveying", "score": 90, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Hydrology", "score": 99, "grade": "A" },
+            { "course": "Structural Analysis", "score": 77, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "indexNumber": "2024016",
+      "name": "Sarah Martin",
+      "major": "Nursing",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Microbiology", "score": 64, "grade": "B" },
+            { "course": "Pharmacology", "score": 89, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Nutrition", "score": 97, "grade": "A" },
+            { "course": "Pathophysiology", "score": 49, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Physiology", "score": 96, "grade": "A" },
+            { "course": "Health Assessment", "score": 50, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Pharmacology", "score": 78, "grade": "B" },
+            { "course": "Health Assessment", "score": 98, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "indexNumber": "2024017",
+      "name": "Charles Lee",
+      "major": "Mechanical Engineering",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Machine Design", "score": 54, "grade": "C" },
+            { "course": "Thermodynamics", "score": 61, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "indexNumber": "2024018",
+      "name": "Karen Perez",
+      "major": "Business Admin",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Marketing", "score": 46, "grade": "C" },
+            { "course": "Microeconomics", "score": 92, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Finance", "score": 85, "grade": "A" },
+            { "course": "Accounting", "score": 79, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Management", "score": 60, "grade": "B" },
+            { "course": "Macroeconomics", "score": 70, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "indexNumber": "2024019",
+      "name": "Christopher Thompson",
+      "major": "Fashion Design",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Textile Science", "score": 49, "grade": "C" },
+            { "course": "Drafting", "score": 81, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Fashion Illustration", "score": 82, "grade": "A" },
+            { "course": "History of Art", "score": 81, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Lines & Designs", "score": 53, "grade": "C" },
+            { "course": "Pattern Making", "score": 70, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Pattern Making", "score": 57, "grade": "C" },
+            { "course": "Fashion Illustration", "score": 91, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "indexNumber": "2024020",
+      "name": "Nancy White",
+      "major": "Nursing",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Microbiology", "score": 57, "grade": "C" },
+            { "course": "Pharmacology", "score": 49, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Anatomy", "score": 54, "grade": "C" },
+            { "course": "Pathophysiology", "score": 86, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Health Assessment", "score": 94, "grade": "A" },
+            { "course": "Nutrition", "score": 48, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "indexNumber": "2024021",
+      "name": "Daniel Harris",
+      "major": "Nursing",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Microbiology", "score": 51, "grade": "C" },
+            { "course": "Pharmacology", "score": 65, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Pathophysiology", "score": 77, "grade": "B" },
+            { "course": "Nutrition", "score": 53, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Physiology", "score": 46, "grade": "C" },
+            { "course": "Anatomy", "score": 71, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Health Assessment", "score": 83, "grade": "A" },
+            { "course": "Microbiology", "score": 59, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "indexNumber": "2024022",
+      "name": "Lisa Sanchez",
+      "major": "Architecture",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Digital Modeling", "score": 62, "grade": "B" },
+            { "course": "Design Studio", "score": 51, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Structural Systems", "score": 79, "grade": "B" },
+            { "course": "Building Materials", "score": 86, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Urban Planning", "score": 82, "grade": "A" },
+            { "course": "Sustainability", "score": 77, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Building Materials", "score": 57, "grade": "C" },
+            { "course": "Structural Systems", "score": 86, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 5",
+          "results": [
+            { "course": "Sustainability", "score": 73, "grade": "B" },
+            { "course": "Digital Modeling", "score": 52, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "indexNumber": "2024023",
+      "name": "Matthew Clark",
+      "major": "Nursing",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Anatomy", "score": 83, "grade": "A" },
+            { "course": "Health Assessment", "score": 66, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Physiology", "score": 81, "grade": "A" },
+            { "course": "Pharmacology", "score": 50, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Pathophysiology", "score": 59, "grade": "C" },
+            { "course": "Microbiology", "score": 51, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Pharmacology", "score": 92, "grade": "A" },
+            { "course": "Microbiology", "score": 71, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "indexNumber": "2024024",
+      "name": "Betty Ramirez",
+      "major": "Computer Science",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Data Structures", "score": 53, "grade": "C" },
+            { "course": "Algorithms", "score": 85, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "indexNumber": "2024025",
+      "name": "Anthony Lewis",
+      "major": "Nursing",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Pharmacology", "score": 94, "grade": "A" },
+            { "course": "Pathophysiology", "score": 54, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Physiology", "score": 78, "grade": "B" },
+            { "course": "Anatomy", "score": 76, "grade": "B" }
+          ]
+        },
+        {
+          "semesterName": "Semester 3",
+          "results": [
+            { "course": "Health Assessment", "score": 81, "grade": "A" },
+            { "course": "Microbiology", "score": 84, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 4",
+          "results": [
+            { "course": "Pharmacology", "score": 48, "grade": "C" },
+            { "course": "Anatomy", "score": 92, "grade": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "indexNumber": "2024026",
+      "name": "Margaret Robinson",
+      "major": "Architecture",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Sustainability", "score": 46, "grade": "C" },
+            { "course": "Structural Systems", "score": 94, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Urban Planning", "score": 61, "grade": "B" },
+            { "course": "Building Materials", "score": 71, "grade": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "indexNumber": "2024027",
+      "name": "Mark Walker",
+      "major": "Fashion Design",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Drafting", "score": 78, "grade": "B" },
+            { "course": "History of Art", "score": 97, "grade": "A" }
+          ]
+    },       
+    {
+        "id": "28",
+        "indexNumber": "2024028",
+        "name": "Eleanor Louis",
+        "major": "Computer Science",
+        "semesters": [
+            {
+            "semesterName": "Semester 1",
+            "results": [
+                { "course": "Introduction to Programming", "score": 88, "grade": "A" },
+                { "course": "Calculus I", "score": 75, "grade": "B" }
+            ]
+            },
+            {
+            "semesterName": "Semester 2",
+            "results": [
+                { "course": "Data Structures", "score": 92, "grade": "A" },
+                { "course": "Linear Algebra", "score": 81, "grade": "A" }
+            ]
+            }
+        ]
+    },
+    {
+      "id": "29",
+      "indexNumber": "2024029",
+      "name": "Abel Kendall",
+      "major": "Fashion Design",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Introduction to Fashion Design", "score": 65, "grade": "B" },
+            { "course": "Drafting", "score": 90, "grade": "A" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Drafting II", "score": 95, "grade": "A" },
+            { "course": "Lines & Designs", "score": 50, "grade": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "indexNumber": "2024030",
+      "name": "Celestine Asphalt Moses",
+      "major": "Fashion Design",
+      "semesters": [
+        {
+          "semesterName": "Semester 1",
+          "results": [
+            { "course": "Introduction to Fashion Design", "score": 80, "grade": "A" },
+            { "course": "Drafting", "score": 50, "grade": "C" }
+          ]
+        },
+        {
+          "semesterName": "Semester 2",
+          "results": [
+            { "course": "Drafting II", "score": 75, "grade": "A" },
+            { "course": "Lines & Designs", "score": 50, "grade": "C" }
+          ]
+        }
+      ]
+    }
+  ]
+}
+]
+}

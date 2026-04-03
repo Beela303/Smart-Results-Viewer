@@ -11,8 +11,8 @@ JSON SERVER
 Axios
 
 ## CORE FEATURES
-Search reults by semester/course
-Downloadable summary (CSV or PDF)
+Search reults by name, course or index number
+Downloadable summary (PDF)
 Visual performance graphs
 Grade distribution table
 Table + Chart layout
