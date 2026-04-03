@@ -836,6 +836,8 @@
             { "course": "Drafting", "score": 78, "grade": "B" },
             { "course": "History of Art", "score": 97, "grade": "A" }
           ]
+        }
+      ]
     },       
     {
         "id": "28",
@@ -904,6 +906,4 @@
       ]
     }
   ]
-}
-]
 }
