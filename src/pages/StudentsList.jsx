@@ -15,7 +15,7 @@ export default function StudentsList() {
 
   const navigate = useNavigate();
 
-  // ✅ FETCH WITH ERROR HANDLING
+  // FETCH WITH ERROR HANDLING
   useEffect(() => {
     const fetchAll = async () => {
       setLoading(true);
@@ -47,7 +47,7 @@ export default function StudentsList() {
     fetchAll();
   }, []);
 
-  // ✅ FILTER
+  // FILTER
   const filteredStudents = allStudents.filter(student => {
     const term = searchTerm.toLowerCase().trim();
     if (!term) return true;
@@ -103,7 +103,7 @@ export default function StudentsList() {
       {/* CONTENT */}
       <main className="max-w-6xl mx-auto px-6 pt-10">
 
-        {/* 🔄 LOADING STATE */}
+        {/* LOADING STATE */}
         {loading && (
           <div className="flex flex-col items-center justify-center py-24">
             <Loader2 className="animate-spin text-indigo-500 h-10 w-10" />
@@ -113,7 +113,7 @@ export default function StudentsList() {
           </div>
         )}
 
-        {/* ❌ ERROR STATE */}
+        {/* ERROR STATE */}
         {!loading && error && (
           <div className="text-center py-24 bg-black/20 rounded-3xl border border-white/10">
             <p className="text-xl font-semibold mb-3">Failed to load students</p>
@@ -129,7 +129,7 @@ export default function StudentsList() {
           </div>
         )}
 
-        {/* ✅ DATA */}
+        {/* DATA */}
         {!loading && !error && (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

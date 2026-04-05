@@ -19,7 +19,7 @@ export default function StudentDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  // ✅ FETCH WITH ERROR + LOADING HANDLING
+  // FETCH WITH ERROR + LOADING HANDLING
   useEffect(() => {
     setLoading(true);
     setError(false);
@@ -36,7 +36,7 @@ export default function StudentDetail() {
       });
   }, [id]);
 
-  // ✅ LOADING UI (handles Render sleep)
+  // LOADING UI (handles Render sleep)
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white text-xl">
@@ -45,7 +45,7 @@ export default function StudentDetail() {
     );
   }
 
-  // ❌ ERROR UI
+  // ERROR UI
   if (error || !student) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white text-center px-4">
